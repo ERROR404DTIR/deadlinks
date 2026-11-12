@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="230" viewBox="0 0 800 230" xml:space="preserve">
+<style>
+.t{font:15px 'Courier New',monospace;fill:#c9d1d9;white-space:pre}
+.g{fill:#3fb950}.b{fill:#58a6ff}.d{fill:#8b949e}.r{fill:#f85149}
+.l{opacity:0;animation:in .4s forwards}
+@keyframes in{to{opacity:1}}
+@keyframes blink{50%{opacity:0}}
+.c{animation:blink 1s steps(1) infinite}
+</style>
+<rect width="800" height="230" rx="12" fill="#0d1117"/>
+<rect width="800" height="34" rx="12" fill="#161b22"/>
+<circle cx="22" cy="17" r="6" fill="#ff5f56"/><circle cx="42" cy="17" r="6" fill="#ffbd2e"/><circle cx="62" cy="17" r="6" fill="#27c93f"/>
+<text class="t d" x="335" y="22">deadlinks</text>
+<text class="t l" x="24" y="66" style="animation-delay:.3s"><tspan class="g">$</tspan> python deadlinks.py docs/</text>
+<text class="t l d" x="24" y="94" style="animation-delay:1s">Checking 42 URLs in 7 files...</text>
+<text class="t l r" x="24" y="122" style="animation-delay:1.8s">README.md:12  https://exmaple.com/guide  -&gt; Name or service not known</text>
+<text class="t l r" x="24" y="144" style="animation-delay:2.1s">docs/api.md:44  ./img/old.png  -&gt; file not found</text>
+<text class="t l r" x="24" y="166" style="animation-delay:2.4s">docs/faq.md:9  https://example.com/gone  -&gt; HTTP 404</text>
+<text class="t l b" x="24" y="192" style="animation-delay:2.8s">187 links checked, 3 broken.</text>
+<text class="t l" x="24" y="216" style="animation-delay:3.2s"><tspan class="g">$</tspan></text>
+<rect class="c" x="40" y="203" width="9" height="15" fill="#58a6ff"/>
+</svg>
